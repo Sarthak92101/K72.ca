@@ -1,5 +1,7 @@
 import React, { useContext, useRef } from 'react'
-import { NavbarContext } from '../../context/navContext'
+import { NavbarContext } from "../../context/NavContext";
+
+
 
 const Top = () => {
   const stairGreenRef = useRef(null)
@@ -10,7 +12,7 @@ const Top = () => {
       
       {/* Logo */}
       <div className='p-4'>
-        <div className='w-36'>
+        <div className='lg:w-36  w-20'>
           <svg className='w-full' xmlns="http://www.w3.org/2000/svg" width="103" height="40" viewBox="0 0 103 44">
             <path
               fill="#fff"
@@ -30,7 +32,7 @@ const Top = () => {
         onMouseLeave={() => {
           stairGreenRef.current.style.height = '0%'
         }}
-        className='h-10 bg-black relative w-[17vw] overflow-hidden'
+        className='lg:h-10  bg-black relative lg:1 lg:w-[17vw] overflow-hidden'
       >
 
         {/* Animated Green Bar */}
