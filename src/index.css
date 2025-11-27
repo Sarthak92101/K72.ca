@@ -9,11 +9,13 @@
 }
 
 body{
-  background-color: #111;
-}
-body{
+  background-color: white;
+ color: #111;
   overflow-x: hidden;
 }
+/* body{
+  overflow-x: hidden;
+} */
 
 .moveX {
   animation: moveAnimation 10s linear infinite;
@@ -22,8 +24,12 @@ body{
   opacity:0;
   transition: all ease 0.3s;
 }
+.link{
+  color: white;
+}
 .link:hover .moveLink{
-  opacity:1
+  opacity:1;
+ 
 }
 
 @keyframes moveAnimation {

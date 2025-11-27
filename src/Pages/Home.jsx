@@ -6,7 +6,7 @@ import HomeBottom from '../components/Home/HomeBottom';
 
 const Home = () => {
   return (
-    <div>
+    <div >
       <div className="h-screen w-screen fixed">
         <Video />
       </div>

@@ -74,7 +74,7 @@ const FullScreenNav = () => {
         }
     }, [navOpen])
   return (
-    <div ref={fullscreenRef} id='fullscreennav' className=' fullscreennav hidden h-screen z-50 w-full absolute '>
+    <div ref={fullscreenRef} id='fullscreennav' className='fullscreennav hidden h-screen z-50 w-full absolute '>
       <div className='h-screen w-full fixed '>
         <div className='h-screen w-full flex'>
           <div className='stairing h-full w-1/5 bg-black'></div>
@@ -158,7 +158,7 @@ const FullScreenNav = () => {
             </div>
           </div>
           <div className='link origin-top relative border-t'>
-            <h1 className='font-[font2] text-center text-[8vw] leading-[0.8] pt-10 uppercase'>
+            <h1 className='font-[font2]  text-center text-[8vw] leading-[0.8] pt-10 uppercase'>
               Agence
             </h1>
 
